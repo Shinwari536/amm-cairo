@@ -1,0 +1,3771 @@
+{
+    "attributes": [],
+    "builtins": [
+        "output",
+        "range_check"
+    ],
+    "data": [
+        "0x208b7fff7fff7ffe",
+        "0x400380007ffc7ffd",
+        "0x482680017ffc8000",
+        "0x1",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffb7fff8000",
+        "0x48297ffc80007ffd",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffffb",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffb7fff8000",
+        "0x480a7ffc7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff6",
+        "0x480a7ffc7fff8000",
+        "0x480a7ffd7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff6",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x1",
+        "0x400380007ffc7ffd",
+        "0x400380017ffc8000",
+        "0x400380027ffc8000",
+        "0x482680017ffc8000",
+        "0x3",
+        "0x480a80007fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x400380007ffb7ffc",
+        "0x400380027ffb7ffd",
+        "0x482680017ffb8000",
+        "0x3",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x1",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x8",
+        "0x480a7ff87fff8000",
+        "0x480a7ffb7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffec",
+        "0x40137fff7fff8000",
+        "0x4802800180008000",
+        "0x48287ffc7fff8000",
+        "0x4802800280008000",
+        "0x48287ffd7fff8000",
+        "0x480a7ff67fff8000",
+        "0x48127ffc7fff8000",
+        "0x480680017fff8000",
+        "0xffffffffffffffff",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffd8",
+        "0x48127fec7fff8000",
+        "0x480680017fff8000",
+        "0xffffffffffffffff",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffd3",
+        "0x4003800080008001",
+        "0x40137fd87fff8002",
+        "0x40137fda7fff8003",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffc4",
+        "0x48127fd37fff8000",
+        "0x480a7ffb7fff8000",
+        "0x482480017ffc8000",
+        "0x1",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffda",
+        "0x400b7ff77fff8004",
+        "0x40137fff7fff8005",
+        "0x40137fd07fff8006",
+        "0x40137fd27fff8006",
+        "0x48127ff77fff8000",
+        "0x480a80047fff8000",
+        "0x480a80057fff8000",
+        "0x480a80067fff8000",
+        "0x480a80077fff8000",
+        "0x4802800080008000",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 72,
+                    "end_line": 6,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 6
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn.a": 0,
+                        "starkware.cairo.common.math.assert_nn.range_check_ptr": 1
+                    }
+                },
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 7,
+                            "end_line": 44,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 40
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 45,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 45
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn.a": 0,
+                        "starkware.cairo.common.math.assert_nn.range_check_ptr": 2
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 46,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 31,
+                            "end_line": 39,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 47,
+                                    "input_file": {
+                                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 47
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 16,
+                            "start_line": 39
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 27,
+                    "start_line": 46
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn.a": 0,
+                        "starkware.cairo.common.math.assert_nn.range_check_ptr": 2
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 47,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 47
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_le.a": 3,
+                        "starkware.cairo.common.math.assert_le.b": 4,
+                        "starkware.cairo.common.math.assert_le.range_check_ptr": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
+                    "end_line": 51,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 31,
+                            "end_line": 39,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 21,
+                                    "end_line": 52,
+                                    "input_file": {
+                                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 52
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 16,
+                            "start_line": 39
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 16,
+                    "start_line": 51
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_le.a": 3,
+                        "starkware.cairo.common.math.assert_le.b": 4,
+                        "starkware.cairo.common.math.assert_le.range_check_ptr": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 20,
+                    "end_line": 52,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 15,
+                    "start_line": 52
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_le.a": 3,
+                        "starkware.cairo.common.math.assert_le.b": 4,
+                        "starkware.cairo.common.math.assert_le.range_check_ptr": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 52,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 52
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_le.a": 3,
+                        "starkware.cairo.common.math.assert_le.b": 4,
+                        "starkware.cairo.common.math.assert_le.range_check_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 53,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 53
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 34,
+                    "end_line": 68,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 31,
+                            "end_line": 39,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 17,
+                                    "end_line": 69,
+                                    "input_file": {
+                                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 69
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 16,
+                            "start_line": 39
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 19,
+                    "start_line": 68
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 68,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 16,
+                            "end_line": 69,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "start_col": 15,
+                            "start_line": 69
+                        },
+                        "While expanding the reference 'a' in:"
+                    ],
+                    "start_col": 36,
+                    "start_line": 68
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 69,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 69
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 10
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 68,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 16,
+                            "end_line": 70,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "start_col": 15,
+                            "start_line": 70
+                        },
+                        "While expanding the reference 'a' in:"
+                    ],
+                    "start_col": 36,
+                    "start_line": 68
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 10
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 40,
+                    "end_line": 68,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 19,
+                            "end_line": 70,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "start_col": 18,
+                            "start_line": 70
+                        },
+                        "While expanding the reference 'b' in:"
+                    ],
+                    "start_col": 39,
+                    "start_line": 68
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 10
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 20,
+                    "end_line": 70,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 70
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn_le"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 14
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn_le.a": 7,
+                        "starkware.cairo.common.math.assert_nn_le.b": 8,
+                        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": 11
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 71,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 71
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 13,
+                        "starkware.cairo.common.dict.dict_read.key": 12
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 23,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 23
+                }
+            },
+            "21": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 13,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 7,
+                            "end_line": 29,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 25
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 30,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 30
+                }
+            },
+            "22": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 13,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 31,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 31
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 13,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 32
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 15,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 38,
+                            "end_line": 22,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 25,
+                                    "end_line": 34,
+                                    "input_file": {
+                                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 34
+                                },
+                                "While trying to retrieve the implicit argument 'dict_ptr' in:"
+                            ],
+                            "start_col": 16,
+                            "start_line": 22
+                        },
+                        "While expanding the reference 'dict_ptr' in:"
+                    ],
+                    "start_col": 20,
+                    "start_line": 33
+                }
+            },
+            "26": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 15,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 16,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 24,
+                            "end_line": 34,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                            },
+                            "start_col": 19,
+                            "start_line": 34
+                        },
+                        "While expanding the reference 'value' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 24
+                }
+            },
+            "27": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 15,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 34
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_write"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_write.dict_ptr": 18,
+                        "starkware.cairo.common.dict.dict_write.key": 16,
+                        "starkware.cairo.common.dict.dict_write.new_value": 17
+                    }
+                },
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 7,
+                            "end_line": 44,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 39
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 45,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 45
+                }
+            },
+            "29": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_write"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_write.dict_ptr": 18,
+                        "starkware.cairo.common.dict.dict_write.key": 16,
+                        "starkware.cairo.common.dict.dict_write.new_value": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 35,
+                    "end_line": 46,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 46
+                }
+            },
+            "30": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_write"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_write.dict_ptr": 19,
+                        "starkware.cairo.common.dict.dict_write.key": 16,
+                        "starkware.cairo.common.dict.dict_write.new_value": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 47,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 39,
+                            "end_line": 38,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 48,
+                                    "input_file": {
+                                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 48
+                                },
+                                "While trying to retrieve the implicit argument 'dict_ptr' in:"
+                            ],
+                            "start_col": 17,
+                            "start_line": 38
+                        },
+                        "While expanding the reference 'dict_ptr' in:"
+                    ],
+                    "start_col": 20,
+                    "start_line": 47
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_write"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_write.dict_ptr": 19,
+                        "starkware.cairo.common.dict.dict_write.key": 16,
+                        "starkware.cairo.common.dict.dict_write.new_value": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 48,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/dict.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 48
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.alloc",
+                    "starkware.cairo.common.alloc.alloc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 38,
+                            "end_line": 3,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 3
+                        },
+                        "n_prefix_newlines": 0
+                    }
+                ],
+                "inst": {
+                    "end_col": 12,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 4
+                }
+            },
+            "35": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.alloc",
+                    "starkware.cairo.common.alloc.alloc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 1
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 39,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 5
+                }
+            },
+            "36": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 34
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_dict_end": 25,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 50,
+                    "end_line": 37,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 77,
+                            "end_line": 41,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 61,
+                            "start_line": 41
+                        },
+                        "While expanding the reference 'account_dict_end' in:"
+                    ],
+                    "start_col": 28,
+                    "start_line": 37
+                }
+            },
+            "39": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 9
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_dict_end": 25,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 66,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 93,
+                            "end_line": 41,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 83,
+                            "start_line": 41
+                        },
+                        "While expanding the reference 'account_id' in:"
+                    ],
+                    "start_col": 56,
+                    "start_line": 33
+                }
+            },
+            "40": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 10
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_dict_end": 25,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 94,
+                    "end_line": 41,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 42,
+                    "start_line": 41
+                }
+            },
+            "42": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 15
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 27,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 41,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 10,
+                    "start_line": 41
+                }
+            },
+            "43": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 15
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 63,
+                    "end_line": 43,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 43
+                }
+            },
+            "44": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 16
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 72,
+                    "end_line": 43,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 43
+                }
+            },
+            "45": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 17
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 63,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 44
+                }
+            },
+            "46": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 18
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 72,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 44
+                }
+            },
+            "47": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 19
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 34,
+                            "end_line": 68,
+                            "input_file": {
+                                "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 51,
+                                    "end_line": 47,
+                                    "input_file": {
+                                        "filename": "amm.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 47
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 19,
+                            "start_line": 68
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 21,
+                    "start_line": 33
+                }
+            },
+            "48": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 20
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 43,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 37,
+                            "end_line": 47,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 18,
+                            "start_line": 47
+                        },
+                        "While expanding the reference 'token_a_new_balance' in:"
+                    ],
+                    "start_col": 13,
+                    "start_line": 43
+                }
+            },
+            "49": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 21
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 50,
+                    "end_line": 47,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 39,
+                    "start_line": 47
+                }
+            },
+            "51": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 22
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 24,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 51,
+                    "end_line": 47,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 47
+                }
+            },
+            "53": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 38
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 33,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 37,
+                            "end_line": 48,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 18,
+                            "start_line": 48
+                        },
+                        "While expanding the reference 'token_b_new_balance' in:"
+                    ],
+                    "start_col": 13,
+                    "start_line": 44
+                }
+            },
+            "54": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 39
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 33,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 50,
+                    "end_line": 48,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 39,
+                    "start_line": 48
+                }
+            },
+            "56": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 40
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 33,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 51,
+                    "end_line": 48,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 48
+                }
+            },
+            "58": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 59,
+                    "end_line": 52,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 52
+                }
+            },
+            "59": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 53,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 53
+                }
+            },
+            "60": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 54,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 54
+                }
+            },
+            "61": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 58,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 23,
+                    "start_line": 58
+                }
+            },
+            "63": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 58
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 77,
+                    "end_line": 41,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 41,
+                            "end_line": 60,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 25,
+                            "start_line": 60
+                        },
+                        "While expanding the reference 'account_dict_end' in:"
+                    ],
+                    "start_col": 61,
+                    "start_line": 41
+                }
+            },
+            "64": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 59
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 66,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 57,
+                            "end_line": 60,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 47,
+                            "start_line": 60
+                        },
+                        "While expanding the reference 'account_id' in:"
+                    ],
+                    "start_col": 56,
+                    "start_line": 33
+                }
+            },
+            "65": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 60
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 93,
+                    "end_line": 60,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 69,
+                    "start_line": 60
+                }
+            },
+            "67": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 61
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 26,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 94,
+                    "end_line": 60,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 60
+                }
+            },
+            "69": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 71,
+                    "end_line": 64,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 64
+                }
+            },
+            "70": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 65,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 65
+                }
+            },
+            "71": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 63,
+                    "end_line": 66,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 66
+                }
+            },
+            "72": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 63,
+                    "end_line": 67,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 67
+                }
+            },
+            "73": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 34,
+                    "end_line": 68,
+                    "input_file": {
+                        "filename": "/home/chainz/anaconda3/envs/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 51,
+                            "end_line": 48,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 36,
+                                    "end_line": 33,
+                                    "input_file": {
+                                        "filename": "amm.cairo"
+                                    },
+                                    "parent_location": [
+                                        {
+                                            "end_col": 61,
+                                            "end_line": 69,
+                                            "input_file": {
+                                                "filename": "amm.cairo"
+                                            },
+                                            "start_col": 5,
+                                            "start_line": 69
+                                        },
+                                        "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                                    ],
+                                    "start_col": 21,
+                                    "start_line": 33
+                                },
+                                "While expanding the reference 'range_check_ptr' in:"
+                            ],
+                            "start_col": 5,
+                            "start_line": 48
+                        },
+                        "While trying to update the implicit return value 'range_check_ptr' in:"
+                    ],
+                    "start_col": 19,
+                    "start_line": 68
+                }
+            },
+            "74": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 65
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 63,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 32,
+                            "end_line": 69,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 19,
+                            "start_line": 69
+                        },
+                        "While expanding the reference 'new_amm_state' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 63
+                }
+            },
+            "75": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 66
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 63,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 32,
+                            "end_line": 69,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 19,
+                            "start_line": 69
+                        },
+                        "While expanding the reference 'new_amm_state' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 63
+                }
+            },
+            "76": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 67
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 63,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 32,
+                            "end_line": 69,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 19,
+                            "start_line": 69
+                        },
+                        "While expanding the reference 'new_amm_state' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 63
+                }
+            },
+            "77": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 68
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 63,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 32,
+                            "end_line": 69,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 19,
+                            "start_line": 69
+                        },
+                        "While expanding the reference 'new_amm_state' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 63
+                }
+            },
+            "78": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 69
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 60,
+                    "end_line": 69,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 38,
+                    "start_line": 69
+                }
+            },
+            "79": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.modify_account"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 7,
+                        "offset": 70
+                    },
+                    "reference_ids": {
+                        "__main__.modify_account.__fp__": 36,
+                        "__main__.modify_account.__temp0": 29,
+                        "__main__.modify_account.__temp1": 31,
+                        "__main__.modify_account.account_dict_end": 37,
+                        "__main__.modify_account.account_id": 21,
+                        "__main__.modify_account.diff_a": 22,
+                        "__main__.modify_account.diff_b": 23,
+                        "__main__.modify_account.new_account": 35,
+                        "__main__.modify_account.new_amm_state": 38,
+                        "__main__.modify_account.old_account": 28,
+                        "__main__.modify_account.range_check_ptr": 34,
+                        "__main__.modify_account.state": 20,
+                        "__main__.modify_account.token_a_new_balance": 30,
+                        "__main__.modify_account.token_b_new_balance": 32
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 69,
+                    "input_file": {
+                        "filename": "amm.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 69
+                }
+            }
+        }
+    },
+    "hints": {
+        "1": [
+            {
+                "accessible_scopes": [
+                    "starkware.cairo.common.math",
+                    "starkware.cairo.common.math.assert_nn"
+                ],
+                "code": "from starkware.cairo.common.math_utils import assert_integer\nassert_integer(ids.a)\nassert 0 <= ids.a % PRIME < range_check_builtin.bound, f'a = {ids.a} is out of range.'",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.math.assert_nn.a": 0,
+                        "starkware.cairo.common.math.assert_nn.range_check_ptr": 1
+                    }
+                }
+            }
+        ],
+        "21": [
+            {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_read"
+                ],
+                "code": "dict_tracker = __dict_manager.get_tracker(ids.dict_ptr)\ndict_tracker.current_ptr += ids.DictAccess.SIZE\nids.value = dict_tracker.data[ids.key]",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_read.dict_ptr": 13,
+                        "starkware.cairo.common.dict.dict_read.key": 12,
+                        "starkware.cairo.common.dict.dict_read.value": 14
+                    }
+                }
+            }
+        ],
+        "28": [
+            {
+                "accessible_scopes": [
+                    "starkware.cairo.common.dict",
+                    "starkware.cairo.common.dict.dict_write"
+                ],
+                "code": "dict_tracker = __dict_manager.get_tracker(ids.dict_ptr)\ndict_tracker.current_ptr += ids.DictAccess.SIZE\nids.dict_ptr.prev_value = dict_tracker.data[ids.key]\ndict_tracker.data[ids.key] = ids.new_value",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.dict.dict_write.dict_ptr": 18,
+                        "starkware.cairo.common.dict.dict_write.key": 16,
+                        "starkware.cairo.common.dict.dict_write.new_value": 17
+                    }
+                }
+            }
+        ],
+        "33": [
+            {
+                "accessible_scopes": [
+                    "starkware.cairo.common.alloc",
+                    "starkware.cairo.common.alloc.alloc"
+                ],
+                "code": "memory[ap] = segments.add()",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                }
+            }
+        ]
+    },
+    "identifiers": {
+        "__main__.Account": {
+            "full_name": "__main__.Account",
+            "members": {
+                "public_key": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "token_a_balance": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "token_b_balance": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "__main__.AmmState": {
+            "full_name": "__main__.AmmState",
+            "members": {
+                "account_dict_end": {
+                    "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+                    "offset": 1
+                },
+                "account_dict_start": {
+                    "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+                    "offset": 0
+                },
+                "token_a_balance": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "token_b_balance": {
+                    "cairo_type": "felt",
+                    "offset": 3
+                }
+            },
+            "size": 4,
+            "type": "struct"
+        },
+        "__main__.DictAccess": {
+            "destination": "starkware.cairo.common.dict_access.DictAccess",
+            "type": "alias"
+        },
+        "__main__.MAX_BALANCE": {
+            "type": "const",
+            "value": 18446744073709551615
+        },
+        "__main__.alloc": {
+            "destination": "starkware.cairo.common.alloc.alloc",
+            "type": "alias"
+        },
+        "__main__.assert_nn_le": {
+            "destination": "starkware.cairo.common.math.assert_nn_le",
+            "type": "alias"
+        },
+        "__main__.dict_read": {
+            "destination": "starkware.cairo.common.dict.dict_read",
+            "type": "alias"
+        },
+        "__main__.dict_write": {
+            "destination": "starkware.cairo.common.dict.dict_write",
+            "type": "alias"
+        },
+        "__main__.get_fp_and_pc": {
+            "destination": "starkware.cairo.common.registers.get_fp_and_pc",
+            "type": "alias"
+        },
+        "__main__.modify_account": {
+            "decorators": [],
+            "pc": 36,
+            "type": "function"
+        },
+        "__main__.modify_account.Args": {
+            "full_name": "__main__.modify_account.Args",
+            "members": {
+                "account_id": {
+                    "cairo_type": "felt",
+                    "offset": 4
+                },
+                "diff_a": {
+                    "cairo_type": "felt",
+                    "offset": 5
+                },
+                "diff_b": {
+                    "cairo_type": "felt",
+                    "offset": 6
+                },
+                "state": {
+                    "cairo_type": "__main__.AmmState",
+                    "offset": 0
+                }
+            },
+            "size": 7,
+            "type": "struct"
+        },
+        "__main__.modify_account.ImplicitArgs": {
+            "full_name": "__main__.modify_account.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.modify_account.Return": {
+            "cairo_type": "(state : __main__.AmmState, key : felt)",
+            "type": "type_definition"
+        },
+        "__main__.modify_account.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 8
+        },
+        "__main__.modify_account.__fp__": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.modify_account.__fp__",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 58
+                    },
+                    "pc": 63,
+                    "value": "[cast(ap + (-2), felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 16
+                    },
+                    "pc": 44,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.__temp1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.__temp1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 18
+                    },
+                    "pc": 46,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.account_dict_end": {
+            "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+            "full_name": "__main__.modify_account.account_dict_end",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 8
+                    },
+                    "pc": 38,
+                    "value": "[cast(fp + (-8), starkware.cairo.common.dict_access.DictAccess**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 15
+                    },
+                    "pc": 42,
+                    "value": "[cast(ap + (-2), starkware.cairo.common.dict_access.DictAccess**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "pc": 69,
+                    "value": "[cast(ap + (-1), starkware.cairo.common.dict_access.DictAccess**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.account_id": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.account_id",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 36,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.diff_a": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.diff_a",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 36,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.diff_b": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.diff_b",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 36,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.new_account": {
+            "cairo_type": "__main__.Account",
+            "full_name": "__main__.modify_account.new_account",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "pc": 58,
+                    "value": "[cast(fp + 1, __main__.Account*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.new_amm_state": {
+            "cairo_type": "__main__.AmmState",
+            "full_name": "__main__.modify_account.new_amm_state",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 64
+                    },
+                    "pc": 69,
+                    "value": "[cast(fp + 4, __main__.AmmState*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.old_account": {
+            "cairo_type": "__main__.Account*",
+            "full_name": "__main__.modify_account.old_account",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 15
+                    },
+                    "pc": 42,
+                    "value": "[cast(ap + (-1), __main__.Account**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 15
+                    },
+                    "pc": 43,
+                    "value": "[cast(fp, __main__.Account**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 36,
+                    "value": "[cast(fp + (-10), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 38
+                    },
+                    "pc": 53,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 56
+                    },
+                    "pc": 58,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.state": {
+            "cairo_type": "__main__.AmmState",
+            "full_name": "__main__.modify_account.state",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 0
+                    },
+                    "pc": 36,
+                    "value": "[cast(fp + (-9), __main__.AmmState*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.token_a_new_balance": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.token_a_new_balance",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 17
+                    },
+                    "pc": 45,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.modify_account.token_b_new_balance": {
+            "cairo_type": "felt",
+            "full_name": "__main__.modify_account.token_b_new_balance",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 7,
+                        "offset": 19
+                    },
+                    "pc": 47,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.alloc.alloc": {
+            "decorators": [],
+            "pc": 33,
+            "type": "function"
+        },
+        "starkware.cairo.common.alloc.alloc.Args": {
+            "full_name": "starkware.cairo.common.alloc.alloc.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.common.alloc.alloc.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.alloc.alloc.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.common.alloc.alloc.Return": {
+            "cairo_type": "(ptr : felt*)",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.alloc.alloc.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.dict.DictAccess": {
+            "destination": "starkware.cairo.common.dict_access.DictAccess",
+            "type": "alias"
+        },
+        "starkware.cairo.common.dict.dict_read": {
+            "decorators": [],
+            "pc": 19,
+            "type": "function"
+        },
+        "starkware.cairo.common.dict.dict_read.Args": {
+            "full_name": "starkware.cairo.common.dict.dict_read.Args",
+            "members": {
+                "key": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.dict.dict_read.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.dict.dict_read.ImplicitArgs",
+            "members": {
+                "dict_ptr": {
+                    "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.dict.dict_read.Return": {
+            "cairo_type": "(value : felt)",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.dict.dict_read.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 1
+        },
+        "starkware.cairo.common.dict.dict_read.dict_ptr": {
+            "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+            "full_name": "starkware.cairo.common.dict.dict_read.dict_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 19,
+                    "value": "[cast(fp + (-4), starkware.cairo.common.dict_access.DictAccess**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "pc": 24,
+                    "value": "cast([fp + (-4)] + 3, starkware.cairo.common.dict_access.DictAccess*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.dict_read.key": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.dict.dict_read.key",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 19,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.dict_read.value": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.dict.dict_read.value",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "pc": 21,
+                    "value": "[cast(fp, felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.dict_write": {
+            "decorators": [],
+            "pc": 28,
+            "type": "function"
+        },
+        "starkware.cairo.common.dict.dict_write.Args": {
+            "full_name": "starkware.cairo.common.dict.dict_write.Args",
+            "members": {
+                "key": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "new_value": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.dict.dict_write.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.dict.dict_write.ImplicitArgs",
+            "members": {
+                "dict_ptr": {
+                    "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.dict.dict_write.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.dict.dict_write.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.dict.dict_write.dict_ptr": {
+            "cairo_type": "starkware.cairo.common.dict_access.DictAccess*",
+            "full_name": "starkware.cairo.common.dict.dict_write.dict_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 28,
+                    "value": "[cast(fp + (-5), starkware.cairo.common.dict_access.DictAccess**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 30,
+                    "value": "cast([fp + (-5)] + 3, starkware.cairo.common.dict_access.DictAccess*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.dict_write.key": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.dict.dict_write.key",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 28,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.dict_write.new_value": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.dict.dict_write.new_value",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 28,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.dict.squash_dict": {
+            "destination": "starkware.cairo.common.squash_dict.squash_dict",
+            "type": "alias"
+        },
+        "starkware.cairo.common.dict_access.DictAccess": {
+            "full_name": "starkware.cairo.common.dict_access.DictAccess",
+            "members": {
+                "key": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "new_value": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "prev_value": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_le": {
+            "decorators": [],
+            "pc": 5,
+            "type": "function"
+        },
+        "starkware.cairo.common.math.assert_le.Args": {
+            "full_name": "starkware.cairo.common.math.assert_le.Args",
+            "members": {
+                "a": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "b": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_le.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.math.assert_le.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_le.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.math.assert_le.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.math.assert_le.a": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_le.a",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 5,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_le.b": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_le.b",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 5,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_le.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_le.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 5,
+                    "value": "[cast(fp + (-5), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 5
+                    },
+                    "pc": 9,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_nn": {
+            "decorators": [],
+            "pc": 1,
+            "type": "function"
+        },
+        "starkware.cairo.common.math.assert_nn.Args": {
+            "full_name": "starkware.cairo.common.math.assert_nn.Args",
+            "members": {
+                "a": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_nn.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.math.assert_nn.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_nn.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.math.assert_nn.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.math.assert_nn.a": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_nn.a",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 1,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_nn.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_nn.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 1,
+                    "value": "[cast(fp + (-4), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 2,
+                    "value": "cast([fp + (-4)] + 1, felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_nn_le": {
+            "decorators": [],
+            "pc": 10,
+            "type": "function"
+        },
+        "starkware.cairo.common.math.assert_nn_le.Args": {
+            "full_name": "starkware.cairo.common.math.assert_nn_le.Args",
+            "members": {
+                "a": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "b": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_nn_le.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.math.assert_nn_le.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.math.assert_nn_le.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.math.assert_nn_le.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.math.assert_nn_le.a": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_nn_le.a",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 10,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_nn_le.b": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_nn_le.b",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 10,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.math.assert_nn_le.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.math.assert_nn_le.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 10,
+                    "value": "[cast(fp + (-5), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 5
+                    },
+                    "pc": 14,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 14
+                    },
+                    "pc": 18,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.registers.get_ap": {
+            "destination": "starkware.cairo.lang.compiler.lib.registers.get_ap",
+            "type": "alias"
+        },
+        "starkware.cairo.common.registers.get_fp_and_pc": {
+            "destination": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc",
+            "type": "alias"
+        },
+        "starkware.cairo.common.squash_dict.DictAccess": {
+            "destination": "starkware.cairo.common.dict_access.DictAccess",
+            "type": "alias"
+        },
+        "starkware.cairo.common.squash_dict.assert_lt_felt": {
+            "destination": "starkware.cairo.common.math.assert_lt_felt",
+            "type": "alias"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Return": {
+            "cairo_type": "(fp_val : felt*, pc_val : felt*)",
+            "type": "type_definition"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 1,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 1,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 2,
+                "value": "cast([fp + (-4)] + 1, felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 5,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 5,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 5,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 5
+                },
+                "pc": 9,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 10,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 10,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 10,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 5
+                },
+                "pc": 14,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 14
+                },
+                "pc": 18,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 19,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 19,
+                "value": "[cast(fp + (-4), starkware.cairo.common.dict_access.DictAccess**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 1
+                },
+                "pc": 21,
+                "value": "[cast(fp, felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 1
+                },
+                "pc": 24,
+                "value": "cast([fp + (-4)] + 3, starkware.cairo.common.dict_access.DictAccess*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 28,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 28,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 28,
+                "value": "[cast(fp + (-5), starkware.cairo.common.dict_access.DictAccess**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 30,
+                "value": "cast([fp + (-5)] + 3, starkware.cairo.common.dict_access.DictAccess*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 36,
+                "value": "[cast(fp + (-9), __main__.AmmState*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 36,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 36,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 36,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 0
+                },
+                "pc": 36,
+                "value": "[cast(fp + (-10), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 8
+                },
+                "pc": 38,
+                "value": "[cast(fp + (-8), starkware.cairo.common.dict_access.DictAccess**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 15
+                },
+                "pc": 42,
+                "value": "[cast(ap + (-2), starkware.cairo.common.dict_access.DictAccess**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 15
+                },
+                "pc": 42,
+                "value": "[cast(ap + (-1), __main__.Account**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 15
+                },
+                "pc": 43,
+                "value": "[cast(fp, __main__.Account**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 16
+                },
+                "pc": 44,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 17
+                },
+                "pc": 45,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 18
+                },
+                "pc": 46,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 19
+                },
+                "pc": 47,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 38
+                },
+                "pc": 53,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 56
+                },
+                "pc": 58,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 56
+                },
+                "pc": 58,
+                "value": "[cast(fp + 1, __main__.Account*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 58
+                },
+                "pc": 63,
+                "value": "[cast(ap + (-2), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 64
+                },
+                "pc": 69,
+                "value": "[cast(ap + (-1), starkware.cairo.common.dict_access.DictAccess**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 7,
+                    "offset": 64
+                },
+                "pc": 69,
+                "value": "[cast(fp + 4, __main__.AmmState*)]"
+            }
+        ]
+    }
+}

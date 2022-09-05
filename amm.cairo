@@ -1,5 +1,5 @@
 %builtins output pedersen range_check ecdsa
-from starkware.cairo.common.dict import dict_read, dict_write, dict_update
+from starkware.cairo.common.dict import dict_read, dict_write, dict_update, dict_new, dict_squash
 from starkware.cairo.common.alloc import alloc
 from starkware.cairo.common.math import assert_nn_le
 from starkware.cairo.common.registers import get_fp_and_pc
@@ -7,13 +7,18 @@ from starkware.cairo.common.dict_access import DictAccess
 from starkware.cairo.common.math import unsigned_div_rem
 from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.cairo.common.hash import hash2
+from starkware.cairo.common.small_merkle_tree import (
+    small_merkle_tree_update,
+)
 
 
 
 # The maximum amount of each token that belongs to the AMM.
 const MAX_BALANCE = 2 ** 64 - 1
 
-
+# Now we can compute the Merkle roots (we have arbitrarily chosen to use height of 10 in the Merkle tree,
+#  supporting 2^10 = 1024 accounts):
+const LOG_N_ACCOUNTS = 10
 
 
 # Each account will contain the balances of the two tokens, and the public key of the user.
@@ -127,7 +132,7 @@ func swap{range_check_ptr}(state : AmmState, transaction : SwapTransaction*)-> (
     # Update the state.
     let new_state : AmmState
     assert new_state.account_dict_start = state.account_dict_start
-    assert new_state.account_dict_endt = state.account_dict_end
+    assert new_state.account_dict_end = state.account_dict_end
     assert new_state.token_a_balance = new_x
     assert new_state.token_b_balance = new_y
 
@@ -204,8 +209,36 @@ func hash_dict_values{pedersen_ptr : HashBuiltin*}(dict_start : DictAccess*, dic
     )
 end
 
+# Computes the Merkle roots before and after the batch.
+# Hint argument: initial_account_dict should be a dictionary
+# from account_id to an address in memory of the Account struct.
+func compute_merkle_roots{pedersen_ptr : HashBuiltin*, range_check_ptr}(
+    state : AmmState
+)-> (root_before : felt, root_after : felt):
+    alloc_locals
 
+    # Squash the account dictionary.
+    let(squashed_dict_start, squashed_dict_end) = dict_squash(
+        dict_accesses_start=state.account_dict_start,
+        dict_accesses_end=state.account_dict_end
+    )
 
+    # Hash the dict values.
+    %{
+        from starkware.crypto.signature.signature import pedersen_hash
+        
+        initial_dict = {}
+        for account_id, account in initial_account_dict.items():
+            public_key = memory[account + ids.Account.public_key]
+            token_a_balance = memory[account + ids.Account.token_a_balance]
+            token_b_balance = memory[account + ids.Account.token_b_balance]
+                                                    #  H(H(public_key, token_a_balance), token_b_balance).
+            initial_dict[account_id] = pedersen_hash(pedersen_hash(public_key, token_a_balance), token_b_balance)
+
+    %}
+
+    let (local hash_dict_start : DictAccess*) = new_dict()
+    
 
 
 

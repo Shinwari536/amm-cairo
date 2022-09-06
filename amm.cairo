@@ -223,8 +223,7 @@ func hash_dict_values{pedersen_ptr : HashBuiltin*}(
         return (hash_dict_end=hash_dict_start)
     end
 
-    # Compute the hash of the account before and after the
-    # change.
+    # Compute the hash of the account before and after the change.
     let (prev_hash) = hash_account(
         account=cast(dict_start.prev_value, Account*)
     )
@@ -266,15 +265,11 @@ func compute_merkle_roots{
 
         initial_dict = {}
         for account_id, account in initial_account_dict.items():
-            public_key = memory[
-                account + ids.Account.public_key]
-            token_a_balance = memory[
-                account + ids.Account.token_a_balance]
-            token_b_balance = memory[
-                account + ids.Account.token_b_balance]
-            initial_dict[account_id] = pedersen_hash(
-                pedersen_hash(public_key, token_a_balance),
-                token_b_balance)
+            public_key = memory[account + ids.Account.public_key]
+            token_a_balance = memory[account + ids.Account.token_a_balance]
+            token_b_balance = memory[account + ids.Account.token_b_balance]
+
+            initial_dict[account_id] = pedersen_hash(pedersen_hash(public_key, token_a_balance),token_b_balance)
     %}
     let (local hash_dict_start : DictAccess*) = dict_new()
     let (hash_dict_end) = hash_dict_values(

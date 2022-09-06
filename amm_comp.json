@@ -15152,7 +15152,20 @@
                         "__main__.hash_dict_values.pedersen_ptr": 230
                     }
                 },
-                "hints": [],
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 11,
+                            "end_line": 225,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 9,
+                            "start_line": 223
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
                 "inst": {
                     "end_col": 50,
                     "end_line": 217,
@@ -15169,12 +15182,12 @@
                             "parent_location": [
                                 {
                                     "end_col": 47,
-                                    "end_line": 223,
+                                    "end_line": 226,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 9,
-                                    "start_line": 223
+                                    "start_line": 226
                                 },
                                 "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                             ],
@@ -15215,12 +15228,12 @@
                     "parent_location": [
                         {
                             "end_col": 46,
-                            "end_line": 223,
+                            "end_line": 226,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 31,
-                            "start_line": 223
+                            "start_line": 226
                         },
                         "While expanding the reference 'hash_dict_start' in:"
                     ],
@@ -15249,12 +15262,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 47,
-                    "end_line": 223,
+                    "end_line": 226,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 9,
-                    "start_line": 223
+                    "start_line": 226
                 }
             },
             "493": {
@@ -15292,12 +15305,12 @@
                             "parent_location": [
                                 {
                                     "end_col": 6,
-                                    "end_line": 230,
+                                    "end_line": 233,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 23,
-                                    "start_line": 228
+                                    "start_line": 231
                                 },
                                 "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                             ],
@@ -15331,12 +15344,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 54,
-                    "end_line": 229,
+                    "end_line": 232,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 17,
-                    "start_line": 229
+                    "start_line": 232
                 }
             },
             "495": {
@@ -15360,12 +15373,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 230,
+                    "end_line": 233,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 23,
-                    "start_line": 228
+                    "start_line": 231
                 }
             },
             "497": {
@@ -15397,7 +15410,7 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 230,
+                            "end_line": 233,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
@@ -15411,12 +15424,12 @@
                                     "parent_location": [
                                         {
                                             "end_col": 6,
-                                            "end_line": 233,
+                                            "end_line": 236,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 22,
-                                            "start_line": 231
+                                            "start_line": 234
                                         },
                                         "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                     ],
@@ -15426,7 +15439,7 @@
                                 "While expanding the reference 'pedersen_ptr' in:"
                             ],
                             "start_col": 23,
-                            "start_line": 228
+                            "start_line": 231
                         },
                         "While trying to update the implicit return value 'pedersen_ptr' in:"
                     ],
@@ -15456,12 +15469,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 53,
-                    "end_line": 232,
+                    "end_line": 235,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 17,
-                    "start_line": 232
+                    "start_line": 235
                 }
             },
             "499": {
@@ -15486,12 +15499,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 233,
+                    "end_line": 236,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 22,
-                    "start_line": 231
+                    "start_line": 234
                 }
             },
             "501": {
@@ -15514,7 +15527,20 @@
                         "__main__.hash_dict_values.prev_hash": 233
                     }
                 },
-                "hints": [],
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 7,
+                            "end_line": 239,
+                            "input_file": {
+                                "filename": "amm.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 237
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
                 "inst": {
                     "end_col": 34,
                     "end_line": 220,
@@ -15524,12 +15550,12 @@
                     "parent_location": [
                         {
                             "end_col": 41,
-                            "end_line": 236,
+                            "end_line": 242,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 26,
-                            "start_line": 236
+                            "start_line": 242
                         },
                         "While expanding the reference 'hash_dict_start' in:"
                     ],
@@ -15560,12 +15586,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 27,
-                    "end_line": 237,
+                    "end_line": 243,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 13,
-                    "start_line": 237
+                    "start_line": 243
                 }
             },
             "503": {
@@ -15591,24 +15617,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 19,
-                    "end_line": 228,
+                    "end_line": 231,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 29,
-                            "end_line": 238,
+                            "end_line": 244,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 20,
-                            "start_line": 238
+                            "start_line": 244
                         },
                         "While expanding the reference 'prev_hash' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 228
+                    "start_line": 231
                 }
             },
             "504": {
@@ -15634,24 +15660,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 18,
-                    "end_line": 231,
+                    "end_line": 234,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 27,
-                            "end_line": 239,
+                            "end_line": 245,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 19,
-                            "start_line": 239
+                            "start_line": 245
                         },
                         "While expanding the reference 'new_hash' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 231
+                    "start_line": 234
                 }
             },
             "505": {
@@ -15677,12 +15703,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 240,
+                    "end_line": 246,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 236
+                    "start_line": 242
                 }
             },
             "507": {
@@ -15715,7 +15741,7 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 233,
+                            "end_line": 236,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
@@ -15729,12 +15755,12 @@
                                     "parent_location": [
                                         {
                                             "end_col": 6,
-                                            "end_line": 245,
+                                            "end_line": 251,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 12,
-                                            "start_line": 241
+                                            "start_line": 247
                                         },
                                         "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                     ],
@@ -15744,7 +15770,7 @@
                                 "While expanding the reference 'pedersen_ptr' in:"
                             ],
                             "start_col": 22,
-                            "start_line": 231
+                            "start_line": 234
                         },
                         "While trying to update the implicit return value 'pedersen_ptr' in:"
                     ],
@@ -15775,12 +15801,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 48,
-                    "end_line": 242,
+                    "end_line": 248,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 20,
-                    "start_line": 242
+                    "start_line": 248
                 }
             },
             "510": {
@@ -15813,12 +15839,12 @@
                     "parent_location": [
                         {
                             "end_col": 26,
-                            "end_line": 243,
+                            "end_line": 249,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 18,
-                            "start_line": 243
+                            "start_line": 249
                         },
                         "While expanding the reference 'dict_end' in:"
                     ],
@@ -15849,24 +15875,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 41,
-                    "end_line": 236,
+                    "end_line": 242,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 40,
-                            "end_line": 244,
+                            "end_line": 250,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 25,
-                            "start_line": 244
+                            "start_line": 250
                         },
                         "While expanding the reference 'hash_dict_start' in:"
                     ],
                     "start_col": 26,
-                    "start_line": 236
+                    "start_line": 242
                 }
             },
             "512": {
@@ -15892,12 +15918,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 245,
+                    "end_line": 251,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 12,
-                    "start_line": 241
+                    "start_line": 247
                 }
             },
             "514": {
@@ -15923,12 +15949,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 245,
+                    "end_line": 251,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 241
+                    "start_line": 247
                 }
             },
             "515": {
@@ -15950,12 +15976,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 17,
-                    "end_line": 255,
+                    "end_line": 261,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 255
+                    "start_line": 261
                 }
             },
             "517": {
@@ -15977,7 +16003,7 @@
                 "hints": [],
                 "inst": {
                     "end_col": 49,
-                    "end_line": 253,
+                    "end_line": 259,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
@@ -15991,12 +16017,12 @@
                             "parent_location": [
                                 {
                                     "end_col": 6,
-                                    "end_line": 261,
+                                    "end_line": 267,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 52,
-                                    "start_line": 258
+                                    "start_line": 264
                                 },
                                 "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                             ],
@@ -16006,7 +16032,7 @@
                         "While expanding the reference 'range_check_ptr' in:"
                     ],
                     "start_col": 34,
-                    "start_line": 253
+                    "start_line": 259
                 }
             },
             "518": {
@@ -16028,12 +16054,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 53,
-                    "end_line": 259,
+                    "end_line": 265,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 29,
-                    "start_line": 259
+                    "start_line": 265
                 }
             },
             "519": {
@@ -16055,12 +16081,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 49,
-                    "end_line": 260,
+                    "end_line": 266,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 27,
-                    "start_line": 260
+                    "start_line": 266
                 }
             },
             "520": {
@@ -16082,12 +16108,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 261,
+                    "end_line": 267,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 52,
-                    "start_line": 258
+                    "start_line": 264
                 }
             },
             "522": {
@@ -16118,7 +16144,7 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 261,
+                            "end_line": 267,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
@@ -16132,12 +16158,12 @@
                                     "parent_location": [
                                         {
                                             "end_col": 6,
-                                            "end_line": 261,
+                                            "end_line": 267,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 52,
-                                            "start_line": 258
+                                            "start_line": 264
                                         },
                                         "While trying to update the implicit return value 'range_check_ptr' in:"
                                     ],
@@ -16147,7 +16173,7 @@
                                 "While auto generating local variable for 'range_check_ptr'."
                             ],
                             "start_col": 52,
-                            "start_line": 258
+                            "start_line": 264
                         },
                         "While trying to update the implicit return value 'range_check_ptr' in:"
                     ],
@@ -16177,24 +16203,24 @@
                     {
                         "location": {
                             "end_col": 7,
-                            "end_line": 278,
+                            "end_line": 280,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 5,
-                            "start_line": 264
+                            "start_line": 270
                         },
                         "n_prefix_newlines": 1
                     }
                 ],
                 "inst": {
                     "end_col": 59,
-                    "end_line": 279,
+                    "end_line": 281,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 49,
-                    "start_line": 279
+                    "start_line": 281
                 }
             },
             "525": {
@@ -16219,12 +16245,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 45,
-                    "end_line": 279,
+                    "end_line": 281,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 10,
-                    "start_line": 279
+                    "start_line": 281
                 }
             },
             "526": {
@@ -16249,7 +16275,7 @@
                 "hints": [],
                 "inst": {
                     "end_col": 32,
-                    "end_line": 253,
+                    "end_line": 259,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
@@ -16263,12 +16289,12 @@
                             "parent_location": [
                                 {
                                     "end_col": 6,
-                                    "end_line": 284,
+                                    "end_line": 286,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 27,
-                                    "start_line": 280
+                                    "start_line": 282
                                 },
                                 "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                             ],
@@ -16278,7 +16304,7 @@
                         "While expanding the reference 'pedersen_ptr' in:"
                     ],
                     "start_col": 5,
-                    "start_line": 253
+                    "start_line": 259
                 }
             },
             "527": {
@@ -16303,24 +16329,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 29,
-                    "end_line": 258,
+                    "end_line": 264,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 39,
-                            "end_line": 281,
+                            "end_line": 283,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 20,
-                            "start_line": 281
+                            "start_line": 283
                         },
                         "While expanding the reference 'squashed_dict_start' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 258
+                    "start_line": 264
                 }
             },
             "528": {
@@ -16345,24 +16371,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 48,
-                    "end_line": 258,
+                    "end_line": 264,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 35,
-                            "end_line": 282,
+                            "end_line": 284,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 18,
-                            "start_line": 282
+                            "start_line": 284
                         },
                         "While expanding the reference 'squashed_dict_end' in:"
                     ],
                     "start_col": 31,
-                    "start_line": 258
+                    "start_line": 264
                 }
             },
             "529": {
@@ -16387,24 +16413,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 31,
-                    "end_line": 279,
+                    "end_line": 281,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 40,
-                            "end_line": 283,
+                            "end_line": 285,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 25,
-                            "start_line": 283
+                            "start_line": 285
                         },
                         "While expanding the reference 'hash_dict_start' in:"
                     ],
                     "start_col": 16,
-                    "start_line": 279
+                    "start_line": 281
                 }
             },
             "530": {
@@ -16429,12 +16455,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 284,
+                    "end_line": 286,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 27,
-                    "start_line": 280
+                    "start_line": 282
                 }
             },
             "532": {
@@ -16467,24 +16493,24 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 284,
+                            "end_line": 286,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 30,
-                                    "end_line": 288,
+                                    "end_line": 290,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 18,
-                                    "start_line": 288
+                                    "start_line": 290
                                 },
                                 "While expanding the reference 'pedersen_ptr' in:"
                             ],
                             "start_col": 27,
-                            "start_line": 280
+                            "start_line": 282
                         },
                         "While trying to update the implicit return value 'pedersen_ptr' in:"
                     ],
@@ -16515,24 +16541,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 31,
-                    "end_line": 279,
+                    "end_line": 281,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 44,
-                            "end_line": 290,
+                            "end_line": 292,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 29,
-                            "start_line": 290
+                            "start_line": 292
                         },
                         "While expanding the reference 'hash_dict_start' in:"
                     ],
                     "start_col": 16,
-                    "start_line": 279
+                    "start_line": 281
                 }
             },
             "534": {
@@ -16558,24 +16584,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 23,
-                    "end_line": 280,
+                    "end_line": 282,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 40,
-                            "end_line": 291,
+                            "end_line": 293,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 27,
-                            "start_line": 291
+                            "start_line": 293
                         },
                         "While expanding the reference 'hash_dict_end' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 280
+                    "start_line": 282
                 }
             },
             "535": {
@@ -16601,12 +16627,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 30,
-                    "end_line": 292,
+                    "end_line": 294,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 16,
-                    "start_line": 292
+                    "start_line": 294
                 }
             },
             "537": {
@@ -16632,12 +16658,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 293,
+                    "end_line": 295,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 37,
-                    "start_line": 287
+                    "start_line": 289
                 }
             },
             "539": {
@@ -16665,36 +16691,36 @@
                 "hints": [],
                 "inst": {
                     "end_col": 30,
-                    "end_line": 288,
+                    "end_line": 290,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 32,
-                            "end_line": 253,
+                            "end_line": 259,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 60,
-                                    "end_line": 295,
+                                    "end_line": 297,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 5,
-                                    "start_line": 295
+                                    "start_line": 297
                                 },
                                 "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                             ],
                             "start_col": 5,
-                            "start_line": 253
+                            "start_line": 259
                         },
                         "While expanding the reference 'pedersen_ptr' in:"
                     ],
                     "start_col": 18,
-                    "start_line": 288
+                    "start_line": 290
                 }
             },
             "540": {
@@ -16729,7 +16755,7 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 261,
+                            "end_line": 267,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
@@ -16743,36 +16769,36 @@
                                     "parent_location": [
                                         {
                                             "end_col": 6,
-                                            "end_line": 261,
+                                            "end_line": 267,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "parent_location": [
                                                 {
                                                     "end_col": 49,
-                                                    "end_line": 253,
+                                                    "end_line": 259,
                                                     "input_file": {
                                                         "filename": "amm.cairo"
                                                     },
                                                     "parent_location": [
                                                         {
                                                             "end_col": 60,
-                                                            "end_line": 295,
+                                                            "end_line": 297,
                                                             "input_file": {
                                                                 "filename": "amm.cairo"
                                                             },
                                                             "start_col": 5,
-                                                            "start_line": 295
+                                                            "start_line": 297
                                                         },
                                                         "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                                     ],
                                                     "start_col": 34,
-                                                    "start_line": 253
+                                                    "start_line": 259
                                                 },
                                                 "While expanding the reference 'range_check_ptr' in:"
                                             ],
                                             "start_col": 52,
-                                            "start_line": 258
+                                            "start_line": 264
                                         },
                                         "While trying to update the implicit return value 'range_check_ptr' in:"
                                     ],
@@ -16782,7 +16808,7 @@
                                 "While auto generating local variable for 'range_check_ptr'."
                             ],
                             "start_col": 52,
-                            "start_line": 258
+                            "start_line": 264
                         },
                         "While trying to update the implicit return value 'range_check_ptr' in:"
                     ],
@@ -16815,24 +16841,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 21,
-                    "end_line": 287,
+                    "end_line": 289,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 36,
-                            "end_line": 295,
+                            "end_line": 297,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 25,
-                            "start_line": 295
+                            "start_line": 297
                         },
                         "While expanding the reference 'root_before' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 287
+                    "start_line": 289
                 }
             },
             "542": {
@@ -16860,24 +16886,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 33,
-                    "end_line": 287,
+                    "end_line": 289,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 59,
-                            "end_line": 295,
+                            "end_line": 297,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 49,
-                            "start_line": 295
+                            "start_line": 297
                         },
                         "While expanding the reference 'root_after' in:"
                     ],
                     "start_col": 23,
-                    "start_line": 287
+                    "start_line": 289
                 }
             },
             "543": {
@@ -16905,12 +16931,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 60,
-                    "end_line": 295,
+                    "end_line": 297,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 295
+                    "start_line": 297
                 }
             },
             "544": {
@@ -16928,12 +16954,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 17,
-                    "end_line": 302,
+                    "end_line": 304,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 302
+                    "start_line": 304
                 }
             },
             "546": {
@@ -16955,36 +16981,36 @@
                     {
                         "location": {
                             "end_col": 7,
-                            "end_line": 315,
+                            "end_line": 317,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 5,
-                            "start_line": 305
+                            "start_line": 307
                         },
                         "n_prefix_newlines": 1
                     }
                 ],
                 "inst": {
                     "end_col": 23,
-                    "end_line": 303,
+                    "end_line": 305,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 34,
-                            "end_line": 317,
+                            "end_line": 319,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 22,
-                            "start_line": 317
+                            "start_line": 319
                         },
                         "While expanding the reference 'transactions' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 303
+                    "start_line": 305
                 }
             },
             "547": {
@@ -17005,24 +17031,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 25,
-                    "end_line": 304,
+                    "end_line": 306,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 65,
-                            "end_line": 317,
+                            "end_line": 319,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 51,
-                            "start_line": 317
+                            "start_line": 319
                         },
                         "While expanding the reference 'n_transactions' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 304
+                    "start_line": 306
                 }
             },
             "548": {
@@ -17043,12 +17069,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 318,
+                    "end_line": 320,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 316
+                    "start_line": 318
                 }
             },
             "549": {
@@ -17066,12 +17092,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 17,
-                    "end_line": 322,
+                    "end_line": 324,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 322
+                    "start_line": 324
                 }
             },
             "551": {
@@ -17090,24 +17116,24 @@
                     {
                         "location": {
                             "end_col": 7,
-                            "end_line": 337,
+                            "end_line": 339,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 5,
-                            "start_line": 323
+                            "start_line": 325
                         },
                         "n_prefix_newlines": 1
                     }
                 ],
                 "inst": {
                     "end_col": 36,
-                    "end_line": 340,
+                    "end_line": 342,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 26,
-                    "start_line": 340
+                    "start_line": 342
                 }
             },
             "553": {
@@ -17127,12 +17153,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 39,
-                    "end_line": 341,
+                    "end_line": 343,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 341
+                    "start_line": 343
                 }
             },
             "554": {
@@ -17154,12 +17180,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 17,
-                    "end_line": 349,
+                    "end_line": 351,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 349
+                    "start_line": 351
                 }
             },
             "556": {
@@ -17183,24 +17209,24 @@
                     {
                         "location": {
                             "end_col": 7,
-                            "end_line": 362,
+                            "end_line": 364,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 5,
-                            "start_line": 353
+                            "start_line": 355
                         },
                         "n_prefix_newlines": 1
                     }
                 ],
                 "inst": {
                     "end_col": 44,
-                    "end_line": 364,
+                    "end_line": 366,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 26,
-                    "start_line": 364
+                    "start_line": 366
                 }
             },
             "558": {
@@ -17224,12 +17250,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 51,
-                    "end_line": 365,
+                    "end_line": 367,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 365
+                    "start_line": 367
                 }
             },
             "559": {
@@ -17253,12 +17279,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 49,
-                    "end_line": 366,
+                    "end_line": 368,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 366
+                    "start_line": 368
                 }
             },
             "560": {
@@ -17283,12 +17309,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 57,
-                    "end_line": 372,
+                    "end_line": 374,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 372
+                    "start_line": 374
                 }
             },
             "561": {
@@ -17313,12 +17339,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 57,
-                    "end_line": 373,
+                    "end_line": 375,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 373
+                    "start_line": 375
                 }
             },
             "562": {
@@ -17343,12 +17369,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 60,
-                    "end_line": 376,
+                    "end_line": 378,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 42,
-                    "start_line": 376
+                    "start_line": 378
                 }
             },
             "564": {
@@ -17375,7 +17401,7 @@
                 "hints": [],
                 "inst": {
                     "end_col": 20,
-                    "end_line": 347,
+                    "end_line": 349,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
@@ -17389,12 +17415,12 @@
                             "parent_location": [
                                 {
                                     "end_col": 6,
-                                    "end_line": 381,
+                                    "end_line": 383,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 30,
-                                    "start_line": 377
+                                    "start_line": 379
                                 },
                                 "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                             ],
@@ -17404,7 +17430,7 @@
                         "While expanding the reference 'range_check_ptr' in:"
                     ],
                     "start_col": 5,
-                    "start_line": 347
+                    "start_line": 349
                 }
             },
             "565": {
@@ -17431,24 +17457,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 16,
-                    "end_line": 352,
+                    "end_line": 354,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 378,
+                            "end_line": 380,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 378
+                            "start_line": 380
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 352
+                    "start_line": 354
                 }
             },
             "566": {
@@ -17475,24 +17501,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 16,
-                    "end_line": 352,
+                    "end_line": 354,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 378,
+                            "end_line": 380,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 378
+                            "start_line": 380
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 352
+                    "start_line": 354
                 }
             },
             "567": {
@@ -17519,24 +17545,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 16,
-                    "end_line": 352,
+                    "end_line": 354,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 378,
+                            "end_line": 380,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 378
+                            "start_line": 380
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 352
+                    "start_line": 354
                 }
             },
             "568": {
@@ -17563,24 +17589,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 16,
-                    "end_line": 352,
+                    "end_line": 354,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 378,
+                            "end_line": 380,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 378
+                            "start_line": 380
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 11,
-                    "start_line": 352
+                    "start_line": 354
                 }
             },
             "569": {
@@ -17607,24 +17633,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 22,
-                    "end_line": 376,
+                    "end_line": 378,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 34,
-                            "end_line": 379,
+                            "end_line": 381,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 22,
-                            "start_line": 379
+                            "start_line": 381
                         },
                         "While expanding the reference 'transactions' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 376
+                    "start_line": 378
                 }
             },
             "570": {
@@ -17651,24 +17677,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 38,
-                    "end_line": 376,
+                    "end_line": 378,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 38,
-                            "end_line": 380,
+                            "end_line": 382,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 24,
-                            "start_line": 380
+                            "start_line": 382
                         },
                         "While expanding the reference 'n_transactions' in:"
                     ],
                     "start_col": 24,
-                    "start_line": 376
+                    "start_line": 378
                 }
             },
             "571": {
@@ -17695,12 +17721,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 381,
+                    "end_line": 383,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 30,
-                    "start_line": 377
+                    "start_line": 379
                 }
             },
             "573": {
@@ -17727,12 +17753,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 56,
-                    "end_line": 384,
+                    "end_line": 386,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 384
+                    "start_line": 386
                 }
             },
             "574": {
@@ -17759,12 +17785,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 56,
-                    "end_line": 385,
+                    "end_line": 387,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 385
+                    "start_line": 387
                 }
             },
             "575": {
@@ -17791,36 +17817,36 @@
                 "hints": [],
                 "inst": {
                     "end_col": 32,
-                    "end_line": 346,
+                    "end_line": 348,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 32,
-                            "end_line": 253,
+                            "end_line": 259,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 6,
-                                    "end_line": 390,
+                                    "end_line": 392,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 37,
-                                    "start_line": 388
+                                    "start_line": 390
                                 },
                                 "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                             ],
                             "start_col": 5,
-                            "start_line": 253
+                            "start_line": 259
                         },
                         "While expanding the reference 'pedersen_ptr' in:"
                     ],
                     "start_col": 5,
-                    "start_line": 346
+                    "start_line": 348
                 }
             },
             "576": {
@@ -17854,36 +17880,36 @@
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 381,
+                            "end_line": 383,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 49,
-                                    "end_line": 253,
+                                    "end_line": 259,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "parent_location": [
                                         {
                                             "end_col": 6,
-                                            "end_line": 390,
+                                            "end_line": 392,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 37,
-                                            "start_line": 388
+                                            "start_line": 390
                                         },
                                         "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                     ],
                                     "start_col": 34,
-                                    "start_line": 253
+                                    "start_line": 259
                                 },
                                 "While expanding the reference 'range_check_ptr' in:"
                             ],
                             "start_col": 30,
-                            "start_line": 377
+                            "start_line": 379
                         },
                         "While trying to update the implicit return value 'range_check_ptr' in:"
                     ],
@@ -17915,24 +17941,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 26,
-                    "end_line": 377,
+                    "end_line": 379,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 389,
+                            "end_line": 391,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 389
+                            "start_line": 391
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 377
+                    "start_line": 379
                 }
             },
             "578": {
@@ -17959,24 +17985,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 26,
-                    "end_line": 377,
+                    "end_line": 379,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 389,
+                            "end_line": 391,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 389
+                            "start_line": 391
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 377
+                    "start_line": 379
                 }
             },
             "579": {
@@ -18003,24 +18029,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 26,
-                    "end_line": 377,
+                    "end_line": 379,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 389,
+                            "end_line": 391,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 389
+                            "start_line": 391
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 377
+                    "start_line": 379
                 }
             },
             "580": {
@@ -18047,24 +18073,24 @@
                 "hints": [],
                 "inst": {
                     "end_col": 26,
-                    "end_line": 377,
+                    "end_line": 379,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 20,
-                            "end_line": 389,
+                            "end_line": 391,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "start_col": 15,
-                            "start_line": 389
+                            "start_line": 391
                         },
                         "While expanding the reference 'state' in:"
                     ],
                     "start_col": 10,
-                    "start_line": 377
+                    "start_line": 379
                 }
             },
             "581": {
@@ -18091,12 +18117,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 6,
-                    "end_line": 390,
+                    "end_line": 392,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 37,
-                    "start_line": 388
+                    "start_line": 390
                 }
             },
             "583": {
@@ -18125,12 +18151,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 52,
-                    "end_line": 391,
+                    "end_line": 393,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 391
+                    "start_line": 393
                 }
             },
             "584": {
@@ -18159,12 +18185,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 50,
-                    "end_line": 392,
+                    "end_line": 394,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 392
+                    "start_line": 394
                 }
             },
             "585": {
@@ -18193,36 +18219,36 @@
                 "hints": [],
                 "inst": {
                     "end_col": 54,
-                    "end_line": 370,
+                    "end_line": 372,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 23,
-                            "end_line": 345,
+                            "end_line": 347,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 14,
-                                    "end_line": 394,
+                                    "end_line": 396,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "start_col": 5,
-                                    "start_line": 394
+                                    "start_line": 396
                                 },
                                 "While trying to retrieve the implicit argument 'output_ptr' in:"
                             ],
                             "start_col": 5,
-                            "start_line": 345
+                            "start_line": 347
                         },
                         "While expanding the reference 'output_ptr' in:"
                     ],
                     "start_col": 22,
-                    "start_line": 370
+                    "start_line": 372
                 }
             },
             "587": {
@@ -18251,48 +18277,48 @@
                 "hints": [],
                 "inst": {
                     "end_col": 32,
-                    "end_line": 253,
+                    "end_line": 259,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 390,
+                            "end_line": 392,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 32,
-                                    "end_line": 346,
+                                    "end_line": 348,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "parent_location": [
                                         {
                                             "end_col": 14,
-                                            "end_line": 394,
+                                            "end_line": 396,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 5,
-                                            "start_line": 394
+                                            "start_line": 396
                                         },
                                         "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                     ],
                                     "start_col": 5,
-                                    "start_line": 346
+                                    "start_line": 348
                                 },
                                 "While expanding the reference 'pedersen_ptr' in:"
                             ],
                             "start_col": 37,
-                            "start_line": 388
+                            "start_line": 390
                         },
                         "While trying to update the implicit return value 'pedersen_ptr' in:"
                     ],
                     "start_col": 5,
-                    "start_line": 253
+                    "start_line": 259
                 }
             },
             "588": {
@@ -18321,48 +18347,48 @@
                 "hints": [],
                 "inst": {
                     "end_col": 49,
-                    "end_line": 253,
+                    "end_line": 259,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "parent_location": [
                         {
                             "end_col": 6,
-                            "end_line": 390,
+                            "end_line": 392,
                             "input_file": {
                                 "filename": "amm.cairo"
                             },
                             "parent_location": [
                                 {
                                     "end_col": 20,
-                                    "end_line": 347,
+                                    "end_line": 349,
                                     "input_file": {
                                         "filename": "amm.cairo"
                                     },
                                     "parent_location": [
                                         {
                                             "end_col": 14,
-                                            "end_line": 394,
+                                            "end_line": 396,
                                             "input_file": {
                                                 "filename": "amm.cairo"
                                             },
                                             "start_col": 5,
-                                            "start_line": 394
+                                            "start_line": 396
                                         },
                                         "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                     ],
                                     "start_col": 5,
-                                    "start_line": 347
+                                    "start_line": 349
                                 },
                                 "While expanding the reference 'range_check_ptr' in:"
                             ],
                             "start_col": 37,
-                            "start_line": 388
+                            "start_line": 390
                         },
                         "While trying to update the implicit return value 'range_check_ptr' in:"
                     ],
                     "start_col": 34,
-                    "start_line": 253
+                    "start_line": 259
                 }
             },
             "589": {
@@ -18391,12 +18417,12 @@
                 "hints": [],
                 "inst": {
                     "end_col": 14,
-                    "end_line": 394,
+                    "end_line": 396,
                     "input_file": {
                         "filename": "amm.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 394
+                    "start_line": 396
                 }
             }
         }
@@ -19442,13 +19468,59 @@
                 }
             }
         ],
+        "490": [
+            {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_dict_values"
+                ],
+                "code": "print('I am satisfied and returned')",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 36,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.hash_dict_values.__temp18": 231,
+                        "__main__.hash_dict_values.dict_end": 228,
+                        "__main__.hash_dict_values.dict_start": 227,
+                        "__main__.hash_dict_values.hash_dict_start": 229,
+                        "__main__.hash_dict_values.pedersen_ptr": 230
+                    }
+                }
+            }
+        ],
+        "501": [
+            {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_dict_values"
+                ],
+                "code": "print('i am called')",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 36,
+                        "offset": 33
+                    },
+                    "reference_ids": {
+                        "__main__.hash_dict_values.__temp18": 231,
+                        "__main__.hash_dict_values.dict_end": 228,
+                        "__main__.hash_dict_values.dict_start": 227,
+                        "__main__.hash_dict_values.hash_dict_start": 229,
+                        "__main__.hash_dict_values.new_hash": 235,
+                        "__main__.hash_dict_values.pedersen_ptr": 234,
+                        "__main__.hash_dict_values.prev_hash": 233
+                    }
+                }
+            }
+        ],
         "523": [
             {
                 "accessible_scopes": [
                     "__main__",
                     "__main__.compute_merkle_roots"
                 ],
-                "code": "from starkware.crypto.signature.signature import pedersen_hash\n\ninitial_dict = {}\nfor account_id, account in initial_account_dict.items():\n    public_key = memory[\n        account + ids.Account.public_key]\n    token_a_balance = memory[\n        account + ids.Account.token_a_balance]\n    token_b_balance = memory[\n        account + ids.Account.token_b_balance]\n    initial_dict[account_id] = pedersen_hash(\n        pedersen_hash(public_key, token_a_balance),\n        token_b_balance)",
+                "code": "from starkware.crypto.signature.signature import pedersen_hash\n\ninitial_dict = {}\nfor account_id, account in initial_account_dict.items():\n    public_key = memory[account + ids.Account.public_key]\n    token_a_balance = memory[account + ids.Account.token_a_balance]\n    token_b_balance = memory[account + ids.Account.token_b_balance]\n\n    initial_dict[account_id] = pedersen_hash(pedersen_hash(public_key, token_a_balance),token_b_balance)",
                 "flow_tracking_data": {
                     "ap_tracking": {
                         "group": 39,

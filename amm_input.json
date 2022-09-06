@@ -1,0 +1,35 @@
+{
+    "token_a_balance": 1000,
+    "token_b_balance": 10000,
+    "accounts": {
+        "109": {
+            "public_key": "0x0",
+            "token_a_balance": 123,
+            "token_b_balance": 570
+        },
+        "153": {
+            "public_key": "0x0",
+            "token_a_balance": 33,
+            "token_b_balance": 456
+        },
+        "369": {
+            "public_key": "0x0",
+            "token_a_balance": 750,
+            "token_b_balance": 201
+        }
+    },
+    "transactions": [
+        {
+            "account_id": 369,
+            "token_a_amount": 5
+        },
+        {
+            "account_id": 153,
+            "token_a_amount": 20
+        },
+        {
+            "account_id": 109,
+            "token_a_amount": 41
+        }
+    ]
+}
